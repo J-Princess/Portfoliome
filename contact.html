@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/about .css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../BOOTSTRAP/project.html"><b>UFUOMA</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../BOOTSTRAP/project.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../BOOTSTRAP/About.html">About </a>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="#!">Contact<span class="sr-only">(current)</span> </a>
+                    </li>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+    </nav>
+
+    <nav class="navbar navbar-light bg-light m-2">
+        <h4 class="text-capitalize">Subscribe to our newsletter</h4>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Input your E-mail" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
+        </form>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4 text-uppercase">contact</h1>
+        <h3 class="lead">We would love to help</h3>
+        <p>We love to create things with fun, openminded people. Feel free to say hello</p>
+        <hr class="my-4">
+        <div class="row">
+            <div class="col-6 col-sm-8">
+                <input type="name" placeholder="Name" size="50px" id="name"><br>
+                <p style="display: none;" id="name-input">input your name</p>
+                <input type="email" placeholder="Email" size="50px" id="email">
+                <p style="display: none;" id="email-input">input your email</p><br>
+                <input type="text" placeholder="Message" size="50px" id="message">
+                <p style="display: none;" id="message-input">please leave a message</p>
+                <div class="message">
+                    <input type="submit" value="Send" id="send" onclick="check()">
+                    <p style="display: none;" id="click-message">We will keep in touch with you!</p>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 float-right">
+                <h2>UFUOMA</h2>
+                <p>20, Jibowu street, off bentley Estate, Abule-Egba, Lagos, Nigeria. </p>
+                <h4>Ufuomaoyibo@gmail.com</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light mt-n4" style="height: 70px;">
+        <div class="row">
+            <div class="col-12 text-center mt-4 ">
+                <p>Copyright &copy; 2020, UFUOMA.com </p>
+            </div>
+        </div>
+    </div>
+    <script src="../BOOTSTRAP/Js/jquery (2).js"></script>
+    <script src="../BOOTSTRAP/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
